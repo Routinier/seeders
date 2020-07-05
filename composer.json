@@ -1,0 +1,40 @@
+{
+  "name": "routinier/seeders",
+  "description": "Base seeders for our laravel applications.",
+  "keywords": ["spatie", "seeders", "routinier"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Freek Van der Herten",
+      "email": "freek@spatie.be",
+      "homepage": "https://spatie.be",
+      "role": "Developer"
+    },
+    {
+      "name": "Sebastian De Deyne",
+      "email": "sebastian@spatie.be",
+      "homepage": "https://spatie.be",
+      "role": "Developer"
+    },
+    {
+      "name": "Tim Joosten",
+      "email": "topairy@gmail.com",
+      "role": "Maintainer"
+    }
+  ],
+  "require": {
+    "php" : ">=7.4",
+    "illuminate/database": "^7.18",
+    "illuminate/support": "^7.18",
+    "fzaninotto/faker": "^1.9",
+    "spatie/html-element": "^1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Routinier\\Seeders\\": "src"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  }
+}
